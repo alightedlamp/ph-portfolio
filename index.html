@@ -12,66 +12,94 @@
 
     <link href="https://fonts.googleapis.com/css?family=Assistant|PT+Sans+Narrow|Poppins|Quicksand|Space+Mono|VT323" rel="stylesheet">
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <section id="hero">
+    <!--<section id="hero">
         <div class="container">
             <p>Hello, I'm Philip, a painter, developer, and producer living in Austin, TX</p>
-            <p><button class="btn-hero">V</button></p>
+            <p class="bounce"><button class="btn-hero"><img src="assets/img/arrow.png"/></button></p>
         </div>
-    </section>
-
-    <section id="main-content">
+    </section>-->
+    <a id="top"/>
+    <section class="nav-wrapper">
         <section id="nav">
+            <div id="profile">
+                <img src="assets/img/profile.jpg"/>
+            </div>
             <nav>
                 <h1 class="title"><a href="#">philip harrell</a></h1>
                 <div id="menu-toggle">MENU</div>
                 <ul class="nav">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a id="about-link" href="#about">About</a></li>
+                    <li><a id="projects-link" href="#projects">Work</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a id="contact-link" href="#contact">Contact</a></li>
                 </ul>
+                <div>
+                    <!-- <h2 class="subtitle"><span class="red-hover">painter</span>, <span class="blue-hover">producer</span>, <span class="yellow-hover">developer</span></h2> -->
+                </div>
             </nav>
-            <!-- <div>
-                <h2 class="subtitle"><span class="red-hover">painter</span>, <span class="blue-hover">producer</span>, <span class="yellow-hover">developer</span></h2>
-            </div> -->
+        </section>
+    </section>
+
+    <section id="main-content">
+        <section class="container" id="about">
+            <h2>About</h2>
+            <p>I'm a painter, producer, and web developer living in Austin, Texas. Previously I was working out of <a href="http://www.bigmedium.com" target="_blank">Big Medium's</a> wonderful Bolm space and currently I'm making paintings at <a href="http://www.pumpproject.org/" target="_blank">Pump Project</a>. I make music as <a href="https://soundcloud.com/p_harrell" _target="blank">PBS</a> and have released records on <a href="https://crisisurbana.bandcamp.com/" target="_blank">Crisis Urbana</a> and <a href="https://alwayshumantapes.bandcamp.com/" taget="_blank">Always Human Tapes</a>; I've built apps and websites, and am open for contributing to open source development projects.</p>
         </section>
 
-        <div class="clearfix"></div>
+        <div class="to-top">
+            <a href="#top"><img src="assets/img/arrow-up.png"/></a>
+        </div>
 
         <section class="container" id="projects">
-            <h2>Projects</h2>
+            <h2>Work</h2>
             <nav class="subnav">
                 <ul class="nav">
-                    <li><a href="#apps">apps</a></li>
+                    <li><a href="#art">painting</a></li>
+                    <li><a id="apps-link">apps</a></li>
                     <li><a href="#sites">sites</a></li>
-                    <li><a href="#art">art</a></li>
                 </ul>
             </nav>
             <div class="clearfix"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div id="projects-info">
+                <p>My primary vocation is traditional painting; however, as time has passed and the state of the world has changed in such a way that has rendered people more vulnerable to those with power in technology, I've shifted gears toward working with and understading machines.</p>
+                <p>This began with making electronic music on my computer and has since shifted to returning to my childhood dream of being a programmer. One day I suspect these pursuits will all collide into something else, and it's that curiosity I'm primarily oriented towards.</p>
+            </div>
+            <div id="apps">
+                <h3>Apps</h3>
+                <div class="item">
+                    <h4>The Studio</h4>
+                    <!-- <img/>-->
+                    <p>Ephemeral automatic painting generator built with JavaScript.</p>
+                </div>
+                <div class="item">
+                    <h4>201 Scoreboard</h4>
+                    <!-- <img/>-->
+                    <p>A scoreboard mini-app for Cratejoy's unofficial ELO-Darts app.</p>
+                </div>
+                <div class="item">
+                    <h4>JS-707</h4>
+                    <!-- <img/>-->
+                    <p>A JavaScript clone of the iconic Roland TR-707.</p>
+                </div>
+                <div class="item">
+                    <h4>ASCIICHAT</h4>
+                    <!-- <img/>-->
+                    <p>An anonymousish ASCII web-based chat client.</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
         </section>
 
-        <section class="container" id="about">
-            <h2>About</h2>
-            <p>I'm a painter, developer, and producer living in Austin, Texas. I've shown paintings around Austin and Dallas; I make music as <a href="https://soundcloud.com/p_harrell" _target="blank">PBS</a> and have released records on Crisis Urbana and Always Human Tapes; and I've built apps and websites that am looking to guide me to my next endeavour.</p>
-        </section>
+        <div class="to-top">
+            <a href="#top"><img src="assets/img/arrow-up.png"/></a>
+        </div>
 
         <section class="container" id="contact">
             <h2>Contact</h2>
-            <nav class="subnav">
-                <ul class="nav nav-social">
-                    <li><a href="https://github.com/alightedlamp" target="_blank"><img class="ico" src="img/github.png"/></a></li>
-                    <li><a href="https://instagram.com/philipharrell" target="_blank"><img class="ico" src="img/insta.png"/></a></li>
-                    <li><a href="https://twitter.com/n_othanks" target="_blank"><img class="ico" src="img/twitter.png"/></a></li>
-                    <li><a href="https://soundcloud.com/p_harrell" target="_blank"><img class="ico" src="img/soundcloud.png"/></a></li>
-                    <li><a href="https://www.linkedin.com/in/philipharrell" target="_blank"><img class="ico" src="img/linkedin.png"/></a></li>
-                </ul>
-            </nav>
-            <div class="clearfix"></div>
             <div class="inner-container">
                 <p>I like to socialize, digitally &mdash; for questions, comments, and other inquries, submit a message on the left. I'm also available on the above platforms.</p>
             </div>
@@ -88,12 +116,26 @@
     </section>
 
     <footer>
+        <div id="footer">
+            <nav class="subnav">
+                <ul class="nav nav-social">
+                    <li><a href="https://github.com/alightedlamp" target="_blank"><img class="ico" src="assets/img/github.png"/></a></li>
+                    <li><a href="https://instagram.com/philipharrell" target="_blank"><img class="ico" src="assets/img/insta.png"/></a></li>
+                    <li><a href="https://twitter.com/n_othanks" target="_blank"><img class="ico" src="assets/img/twitter.png"/></a></li>
+                    <li><a href="https://soundcloud.com/p_harrell" target="_blank"><img class="ico" src="assets/img/soundcloud.png"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/philipharrell" target="_blank"><img class="ico" src="assets/img/linkedin.png"/></a></li>
+                </ul>
+            </nav>
 
+            <!-- <p>Hello, world! Last updated: <span id="updated">March 23, 2017</span></p> -->
+
+            <div class="clearfix"></div>
+        </div>
     </footer>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/script.js"></script>
 
 </body>
 
