@@ -16,18 +16,21 @@ require(['jquery', 'underscore', 'data', 'lib/modules/nav', 'lib/modules/gallery
 
     // var domesticPaintingsGalleryEl = $("#domestic-paintings");
     // var domesticPaintingsGallery = new gallery.GalleryView(data.galleries.domesticPaintingCards, domesticPaintingsGalleryEl);
-    var pourPaintingsGalleryEl = $("#pour-paintings");
-    var pourPaintingsGallery = new gallery.GalleryView(data.galleries.pourPaintingCards, pourPaintingsGalleryEl);
+    // var pourPaintingsGalleryEl = $("#pour-paintings");
+    // var pourPaintingsGallery = new gallery.GalleryView(data.galleries.pourPaintingCards, pourPaintingsGalleryEl);
 
     // domesticPaintingsGallery.createCards();
-    pourPaintingsGallery.createCards();
+    // pourPaintingsGallery.createCards();
 
     var cardView = new gallery.CardView();
 
     $(".card").on("click", function() {
-        var choice = $(this).parent().attr("id") + "-" + $(this).attr("id").replace("card-", "");
-        var choice = $(this).attr("id").replace("card-", "");
-        cardView.showCard(choice);
+        console.log($(".gallery-view").css("display", "none"));
+        if ($(".gallery-view").css("display", "none")) {
+            var choice = $(this).parent().attr("id") + "-" + $(this).attr("id").replace("card-", "");
+            var choice = $(this).attr("id").replace("card-", "");
+            cardView.showCard(choice);
+        }
     });
     $("#previous-card").on("click", function() {
         cardView.showPrevious();
