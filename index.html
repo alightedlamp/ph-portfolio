@@ -16,13 +16,10 @@
     <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="preload">
     <section class="nav-wrapper">
         <a id="top"></a>
         <section id="nav">
-            <!-- <div id="profile">
-                <img src="assets/img/profile.jpg"/>
-            </div> -->
             <nav>
                 <h1 class="title"><a href="#">philip harrell</a></h1>
                 <div id="menu-toggle">MENU</div>
@@ -40,15 +37,25 @@
         <section class="content-section">
             <a id="about-section"></a>
             <section class="container" id="about">
-                <h2>About</h2>
-                <nav class="subnav" id="bio-links">
+                <h2><a class="show-summary">About</a></h2>
+                <!--<nav class="subnav" id="bio-links">
                     <button id="cv-link" class="tab-link">cv</button>
-                </nav>
+                    <button id="skills-link" class="tab-link">skills</button>
+                </nav>-->
                 <div class="clearfix"></div>
-                <p>I'm a painter, producer, and web developer living in Austin, Texas.</p>
-                <p>I began my painting career working out of <a href="http://www.bigmedium.com" target="_blank">Big Medium's</a> wonderful and full-of-character Bolm Studios where I made the majority of the Pour Paintings and participated in Austin's East Austin Studio Tour. The resultant paintings where shown with Big Medium, Las Cruxes, and Farewell Books. Currently I am working on the Domestic Paintings series out of <a href="http://www.pumpproject.org/" target="_blank">Pump Project</a>.</p>
-                <p>I also make electronic music under the guise of <a href="https://soundcloud.com/p_harrell" target="_blank">PBS</a>, released <i>Skeptic</i> in 2013 for <a href="https://crisisurbana.bandcamp.com/" target="_blank">Crisis Urbana</a>, and have a forthcoming record, <i>Ruckus</i>, for <a href="https://alwayshumantapes.bandcamp.com/" target="_blank">Always Human Tapes</a></p>
-                <p>My most recent work has been centered around the digital, working on building mini-apps and websites, and contributing to open source projects.</p>
+                <div class="summary">
+                    <p>I'm a painter, producer, and developer living in Austin, Texas. My passions are abstract painting, music production, and computer science.</p>
+                    <p>My background is in traditional drawing, painting, and ceramics, though I've always been curious about and had a knack for technology; I grew up making websites about Legos and video games, and began my studies in traditional software engineering and web development while earning my Bachelor of Fine Arts at UT Austin.</p>
+                    <p>In 2011, I began producing electronic music under the guise of PBS. <i>Skeptic</i> was released on Detroit's <a href="https://crisisurbana.bandcamp.com/">Crisis Urbana</a> in 2013 and I have self-released music on <a href="http://pbspbs.bandcamp.com">bandcamp</a>.</p>
+                    <p>I am looking for new projects, collaborations, and opportunities in software and web development -- please send me a message if you want to connect!</p>
+                </div>
+
+                <!--<div id="cv" class="tab-content">
+                    <p>This is where my CV goes.</p>
+                </div>-->
+                <!--<div id="skill-summary" class="tab-content">
+                    <p>This is where my skill summary goes.</p>
+                </div>-->
             </section>
 
             <div class="to-top">
@@ -59,67 +66,87 @@
         <section class="content-section">
             <a id="projects-section"></a>
             <section class="container" id="projects">
-                <h2>Work</h2>
+                <h2><a class="show-summary">Work</a></h2>
                 <nav class="subnav" id="work-links">
-                    <button id="paintings-link" class="tab-link">painting</button>
-                    <button id="apps-link" class="tab-link">apps</button>
-                    <button id="sites-link" class="tab-link">sites</button>
+                    <button id="paintings-link" class="tab-link">paint</button>
+                    <button id="tunes-link" class="tab-link">music</button>
+                    <button id="apps-link" class="tab-link">code</button>
                 </nav>
                 <div class="clearfix"></div>
-                <div id="work-summary">
+                <div class="summary" id="work-summary">
                     <p>My primary vocation is traditional abstract painting, however in the past few years I've shifted gears toward working with and understading machines.</p>
-                    <p>This began through launching the PBS project in 2011, and has since directed back to my childhood dream of being a programmer; now most of my energy and time is spent around working with a building things using modern technology.</p>
+                    <p>This began through launching the PBS project in 2011, and has since directed back to my childhood dream of being a programmer; now most of my energy and time is spent building things using modern technology.</p>
                     <p>One day I suspect these pursuits will all collide into something else, and it's that curiosity I'm primarily oriented towards.</p>
                 </div>
 
                 <div id="apps" class="tab-content">
-                    <div class="item">
-                        <h4>The Studio</h4>
-                        <!-- <img/>-->
-                        <p>Ephemeral automatic painting generator built with JavaScript.</p>
-                    </div>
+                    <a href="https://alightedlamp.github.io/the-studio/" target="_blank">
+                        <div class="item">
+                            <h4>The Studio</h4>
+                            <img src="assets/img/code/studio_thumb.png"/>
+                            <p>Ephemeral automatic painting generator built with JavaScript.</p>
+                        </div>
+                    </a>
+                    <a href="https://secret-shore-49408.herokuapp.com/" target="_blank">
+                        <div class="item">
+                            <h4>Simeple Quiz</h4>
+                            <img src="assets/img/code/quiz_thumb.png"/>
+                            <p>A simple multiple-choice quiz app built with JavaScript.</p>
+                        </div>
+                    </a>
+                    <!--<a href="https://alightedlamp.herokuapp.com" target="_blank">
+                        <div class="item">
+                            <h4>a lighted lamp</h4>
+                            <p>A 90s-esque guestbook of yore built with Flask.</p>
+                        </div>
+                    </a>
                     <div class="item">
                         <h4>201 Scoreboard</h4>
-                        <!-- <img/>-->
                         <p>A scoreboard mini-app for Cratejoy's unofficial ELO-Darts app.</p>
                     </div>
                     <div class="item">
                         <h4>JS-707</h4>
-                        <!-- <img/>-->
                         <p>A JavaScript clone of the iconic Roland TR-707.</p>
-                    </div>
-                    <div class="item">
-                        <h4>ASCIICHAT</h4>
-                        <!-- <img/>-->
-                        <p>An anonymousish ASCII web-based chat client.</p>
-                    </div>
+                    </div>-->
                 </div>
 
+                <div class="gallery-view">
+                    <div class="close-view">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true" id="close-view">X</span>
+                    </div>
+                    <div class="controls">
+                        <button id="previous-card" class="control-link">Previous</button>
+                        <button id="next-card" class="control-link">Next</button>
+                    </div>
+                </div>
                 <div id="paintings" class="tab-content">
-                    <h3>Domestic Paintings <e class="date">(2016 - present)</e></h3>
-                    <div class="gallery" id="domestic-paintings">
-                    </div>
-                    <h3>Pour Paintings <e class="date">(2012 - 2015)</e></h3>
+                    <!--<div class="gallery" id="domestic-paintings">
+                        <h3>Domestic Paintings <em class="date">(2016 - present)</em></h3>
+                    </div>-->
                     <div class="gallery" id="pour-paintings">
+                        <h3>Pour Paintings <em class="date">(2012 - 2015)</em></h3>
                     </div>
-                    <h3>On Paper <e class="date">(ongoing)</e></h3>
-                    <div class="gallery" id="paper-paintings">
-                    </div>
+                    <!--<div class="gallery" id="paper-paintings">
+                        <h3>On Paper <em class="date">(ongoing)</em></h3>
+                    </div>-->
                 </div>
 
                 <div id="sites" class="tab-content">
                     <div class="item">
-                        <h4>This one!</h4>
-                        <p>Everything on this website was coded from scratch. Except Require and jQuery, I obviously didn't write those.</p>
-                    </div>
-                    <div class="item">
                         <h4>a lighted lamp</h4>
                         <p>A 90s-esque guestbook of yore built with Flask.</p>
                     </div>
-                    <div class="item">
+                    <!--<div class="item">
                         <h4>City Girl Beach Bum</h4>
                         <p>An eCommerce website for a Dallas-based boutique.</p>
-                    </div>
+                    </div>-->
+                </div>
+
+                <div id="tunes" class="tab-content">
+                    <h3>Skeptic - 2013 - Crisis Urbana</h3>
+                    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2864247236/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://pbspbs.bandcamp.com/album/skeptic">Skeptic by PBS</a></iframe>
+                    <h3>Group of Seven - 2017 - self-released</h3>
+                    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1688306448/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://pbspbs.bandcamp.com/album/group-of-seven">Group of Seven by Group of Seven</a></iframe>
                 </div>
 
                 <div class="clearfix"></div>
@@ -160,9 +187,6 @@
                         <li><a href="https://www.linkedin.com/in/philipharrell" target="_blank"><img class="ico" src="assets/img/linkedin.png"/></a></li>
                     </ul>
                 </nav>
-
-                <!-- <p>Made from scratch and with love from Austin, Texas. Last updated: <span id="updated">March 23, 2017</span></p> -->
-
                 <div class="clearfix"></div>
             </div>
         </footer>

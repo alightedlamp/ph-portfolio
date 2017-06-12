@@ -1,0 +1,15 @@
+- abstract tab nav handler
+- add scroll events to active-section event handlers
+
+- build out the gallery!
+- hook up contact form
+- add cv tab
+
+- clean up info sections for brevity and clarity
+- figure out why title and submit button sometimes animate
+- convert to flask and build in blog "painter programming"
+
+- styling
+    - active section should be disabled for mobile
+    - remove extra padding
+    - fix up title and nav
