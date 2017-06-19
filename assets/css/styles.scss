@@ -70,6 +70,7 @@ p {
 .content-section {
     padding-top: 4em;
     padding-bottom: 4em;
+    transition: .5s;
 }
 .content-section section.container {
     // visibility: hidden;
@@ -144,7 +145,7 @@ footer nav.subnav ul.nav li a:hover {
     box-shadow: none;
 }
 #footer {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -475,35 +476,18 @@ div.card .card-view img {
 }
 
 /* ---- MOBILE ---- */
-@media (max-width: 965px) {
-    #hero p {
-        font-size: 2em;
-    }
+@media (max-width: 666px) {
     h1.title {
         float: none;
         margin-left: .75em;
-    }
-    ul.nav {
-        margin-right: 1.6em;
-    }
-    section.container {
-        max-width: 100%;
-        margin: 2em;
-    }
-}
-@media (max-width: 500px) {
-    h1.title {
-        float: none;
-        margin-left: .75em;
+        margin: 0;
+        padding-top: .75em;
     }
     #hero p {
         font-size: 1.5em;
     }
     #main-content section:last-child {
         margin-bottom: 0;
-    }
-    #menu-toggle {
-        display: block;
     }
     #nav {
         margin-bottom: 0;
@@ -526,9 +510,44 @@ div.card .card-view img {
     section.container {
         max-width: 100%;
         margin: 0;
+
+        h2 {
+            margin: 3px;
+        }
     }
     div.inner-container {
         float: none;
         width: 100%;
+    }
+    div.item {
+        width: 50%;
+    }
+}
+@media (max-width: 965px) {
+    #hero p {
+        font-size: 2em;
+    }
+    h1.title {
+        margin-left: .75em;
+    }
+    ul.nav {
+        margin-right: 1.6em;
+    }
+    .content-section {
+        padding: 0;
+    }
+    #about.active-section,
+    #projects.active-section,
+    #contact.active-section {
+        border-bottom: 0;
+        border-right: 0;
+        border-left: 5px solid black;
+    }
+    section.container {
+        max-width: 100%;
+        margin: 1em;
+    }
+    section.nav-wrapper {
+        margin: 0;
     }
 }
