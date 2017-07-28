@@ -493,7 +493,7 @@ div.card .card-view img {
 .to-top {
   width: 960px;
   margin: 0 auto;
-  padding-top: 2em;
+  padding-top: 3em;
   padding-right: 1em;
   height: 100px;
   text-align: right; }
@@ -533,6 +533,10 @@ div.card .card-view img {
   #nav ul.nav li a:hover {
     background: none; }
 
+  section.content-section {
+    padding: 0;
+    margin: 0; }
+
   section.container {
     max-width: 100%;
     margin: 0; }
@@ -544,7 +548,18 @@ div.card .card-view img {
     width: 100%; }
 
   div.item {
-    width: 50%; } }
+    width: 50%; }
+
+  .to-top {
+    display: none; }
+
+  footer {
+    margin-top: 0; }
+
+  footer .content,
+  footer .subnav {
+    float: none;
+    text-align: center; } }
 @media (max-width: 965px) {
   #hero p {
     font-size: 2em; }
@@ -556,7 +571,11 @@ div.card .card-view img {
     margin-right: 1.6em; }
 
   .content-section {
+    margin: 2em;
     padding: 0; }
+
+  .to-top {
+    width: 100%; }
 
   #about.active-section,
   #projects.active-section,
