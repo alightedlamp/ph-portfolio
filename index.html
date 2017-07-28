@@ -24,7 +24,7 @@
                 <h1 class="title"><a href="#">philip harrell</a></h1>
                 <ul class="nav" id="main-menu">
                     <li class="main-nav-link"><a id="about-link" href="#about-section">About</a></li>
-                    <li class="main-nav-link"><a id="projects-link" href="#projects-section">Work</a></li>
+                    <li class="main-nav-link"><a id="projects-link" href="#projects-section">Projects</a></li>
                     <li class="main-nav-link"><a id="blog-link" href="https://painterprogramming.wordpress.com">Blog</a></li>
                     <li class="main-nav-link"><a id="contact-link" href="#contact-section">Contact</a></li>
                 </ul>
@@ -32,29 +32,34 @@
         </section>
     </section>
 
+    <section class="banner"></section>
+
     <section id="main-content">
         <section class="content-section">
             <a id="about-section"></a>
             <section class="container" id="about">
                 <h2><a class="show-summary">About</a></h2>
-                <!--<nav class="subnav" id="bio-links">
-                    <button id="cv-link" class="tab-link">cv</button>
-                    <button id="skills-link" class="tab-link">skills</button>
-                </nav>-->
                 <div class="clearfix"></div>
                 <div class="summary">
-                    <p>I'm a painter, producer, and developer living in Austin, Texas.</p>
-                    <p>My background is in traditional drawing, painting, and ceramics, though I've always been curious about and had a knack for technology; I grew up making websites about Legos and video games, and began my studies in traditional software engineering and web development while earning my Bachelor of Fine Arts at UT Austin.</p>
+                    <p>I am a maker. I paint, code, and make electronic music.</p>
+                    <p>My background is in traditional drawing, painting, and ceramics. I have always been curious about and had a knack for technology, though: I grew up making websites about Legos and video games, and began my studies in traditional software engineering and web development while earning my Bachelor of Fine Arts at UT Austin.</p>
                     <p>In 2011, I began producing electronic music under the guise of PBS. <i>Skeptic</i> was released on Detroit's <a href="https://crisisurbana.bandcamp.com/" target=_blank>Crisis Urbana</a> in 2013 and I have self-released music on <a href="http://pbspbs.bandcamp.com" target="_blank">bandcamp</a>.</p>
-                    <p>I am looking for new projects, collaborations, and opportunities in software and web development -- please <a href="#contact">send me a message</a> if you want to connect!</p>
+                    <p>I have recently ventured into the world of interactive and digital art through a concentrated effort at becoming an effective programmer -- something that has been a lifelong dream, since my father gave me a book on coding in C at around age 10. I have quickly gained a comfort and love for the quirkiness of JavaScript and its expressive power.</p>
+                    <p>I am a naturally curious person, and one who likes to know a topic comprehensively; this is why I've stubbornly built this website from scratch.</p>
                 </div>
+            </section>
+        </section>
 
-                <!--<div id="cv" class="tab-content">
-                    <p>This is where my CV goes.</p>
-                </div>-->
-                <!--<div id="skill-summary" class="tab-content">
-                    <p>This is where my skill summary goes.</p>
-                </div>-->
+        <section class="content-section">
+            <a id="skills-section"></a>
+            <section class="container" id="skills">
+                <h2>Skills</h2>
+                <div class="skill"><div class="progress" id="html">HTML(5)</div></div>
+                <div class="skill"><div class="progress" id="css">CSS(3)</div></div>
+                <div class="skill"><div class="progress" id="javascript">JavaScript</div></div>
+                <div class="skill"><div class="progress" id="react">React</div></div>
+                <div class="skill"><div class="progress" id="python">Python</div></div>
+                <div class="skill"><div class="progress" id="sql">SQL</div></div>
             </section>
 
             <div class="to-top">
@@ -65,25 +70,32 @@
         <section class="content-section">
             <a id="projects-section"></a>
             <section class="container" id="projects">
-                <h2><a class="show-summary">Work</a></h2>
-                <nav class="subnav" id="work-links">
+                <h2><a class="show-summary">Projects</a></h2>
+                <!--<nav class="subnav" id="work-links">
                     <button id="apps-link" class="tab-link">code</button>
                     <button id="paintings-link" class="tab-link">paint</button>
                     <button id="tunes-link" class="tab-link">music</button>
-                </nav>
+                </nav>-->
                 <div class="clearfix"></div>
-                <div class="summary" id="work-summary">
+                <!--<div class="summary" id="work-summary">
                     <p>My primary vocation is traditional abstract painting, however in the past few years I've shifted gears toward more direclty working with and understading machines.</p>
                     <p>This began when launching the <a href="https://soundcloud.com/p_harrell">PBS project</a> in 2011, and has since directed back to my childhood dream of being a programmer, due in large part to my work expierence developing eBooks and now working for a local technology startup.</p>
                     <p>My skills and interests lean on front-end development (JS, HTML, and CSS), but I have expeirence and knowledge of back-end technologies as well (Python, SQL). I hope to bridge the gap between the creative and technological in my future projects.</p>
-                </div>
+                </div>-->
 
-                <div id="apps" class="tab-content">
+                <div id="apps">
                     <a href="https://alightedlamp.github.io/the-studio/" target="_blank">
                         <div class="item">
                             <h4>The Studio</h4>
                             <img src="assets/img/code/studio_thumb.png"/>
                             <p>Ephemeral automatic painting generator built with JavaScript.</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/alightedlamp/JSART.ART" target="_blank">
+                        <div class="item">
+                            <h4>JSART.ART</h4>
+                            <img src="assets/img/code/jsart_thumb.png"/>
+                            <p>A series of Javascript based interactive digital drawings. These are one part user-interaction, one part program-intervention.</p>
                         </div>
                     </a>
                     <a href="https://secret-shore-49408.herokuapp.com/" target="_blank">
@@ -100,20 +112,6 @@
                             <p>Displays the local weather based on the user's geolocation. (React)</p>
                         </div>
                     </a>
-                    <!--<a href="https://alightedlamp.herokuapp.com" target="_blank">
-                        <div class="item">
-                            <h4>a lighted lamp</h4>
-                            <p>A 90s-esque guestbook of yore built with Flask.</p>
-                        </div>
-                    </a>
-                    <div class="item">
-                        <h4>201 Scoreboard</h4>
-                        <p>A scoreboard mini-app for Cratejoy's unofficial ELO-Darts app.</p>
-                    </div>
-                    <div class="item">
-                        <h4>JS-707</h4>
-                        <p>A JavaScript clone of the iconic Roland TR-707.</p>
-                    </div>-->
                 </div>
 
                 <div class="gallery-view">
@@ -168,7 +166,7 @@
             <a id="contact-section"></a>
             <section class="container" id="contact">
                 <h2>Contact</h2>
-                <p>I like to socialize, digitally &mdash; for questions, comments, and other inquries, send me a message at philipharrell at gmail dot com or through your favorite social account.</p>
+                <p>I like to socialize, digitally &mdash; for questions, comments, and other inquries, send me a message at <a href="mailto:philipharrell@gmail.com">philipharrell@gmail.com</a> or through your favorite social account.</p>
                 <!--<div class="inner-container">
                     <form class="contact-form">
                         <input name="name" placeholder="name" />
@@ -183,6 +181,9 @@
 
         <footer>
             <div id="footer">
+                <div class="content">
+                    <p>Coded from scratch and with <span class="red">&lt;3</span> in Austin, TX.</p>
+                </div>
                 <nav class="subnav">
                     <ul class="nav nav-social">
                         <li><a href="https://github.com/alightedlamp" target="_blank"><img class="ico" src="assets/img/github.png"/></a></li>
