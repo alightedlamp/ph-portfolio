@@ -133,7 +133,7 @@ div.item p {
 div.item img {
     max-width: 100%;
     border: 1px solid black;
-    box-shadow: 3px 3px 0 0 darkblue;
+    box-shadow: 3px 3px 0 0 black;
 }
 div.item:hover img {
     border: 1px solid  $middle-blue;
@@ -273,6 +273,15 @@ ul.nav li a {
         color: white;
     }
 }
+#blog {
+    h2, h3, h4 {
+        color: black;
+        float: none;
+    }
+}
+#blog-posts {
+    margin-bottom: 60px;
+}
 #about {
     margin-top: -300px;
     background-color: $red;
@@ -293,7 +302,8 @@ ul.nav li a {
 #about.active-section,
 #projects.active-section,
 #contact.active-section,
-#skills.active-section {
+#skills.active-section,
+#blog.active-section {
     background-color: white;
     color: black;
     box-shadow: 5px 5px 0 0 black;
