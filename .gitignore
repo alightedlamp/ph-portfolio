@@ -1,5 +1,7 @@
 .DS_Store
 */.DS_store
+assets/css/npm-debug.log
+assets/css/.DS_Store
 assets/css/.sass-cache/*
 assets/css/styles.css.map
 .archive
