@@ -43,14 +43,7 @@ h1.title {
     margin-bottom: 0;
     font-weight: normal;
     transition: .5s;
-}
-h1.title a {
-    transition: .25s;
-    text-decoration: none;
     color: black;
-}
-h1.title a:hover {
-    color: #e5e5e5;
 }
 h2 {
     margin-bottom: 1em;
@@ -558,6 +551,9 @@ div.card .card-view img {
 
 /* ---- MOBILE ---- */
 @media (max-width: 666px) {
+    body, html {
+        margin-top: 0;
+    }
     h1.title {
         float: none;
         margin-left: .75em;
@@ -566,6 +562,9 @@ div.card .card-view img {
     }
     #hero p {
         font-size: 1.5em;
+    }
+    .nav-wrapper {
+        position: relative;
     }
     #main-content section:last-child {
         margin-bottom: 0;
@@ -628,6 +627,13 @@ div.card .card-view img {
     }
     ul.nav {
         margin-right: 1.6em;
+    }
+    #nav ul.nav {
+        margin: 0;
+        display: none;
+        float: none;
+        text-align: center;
+        background-color: $red;
     }
     .content-section {
         margin: 2em;
