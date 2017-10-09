@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://alightedlamp.github.io/ph-portfolio"
+  "homepage": "http://philipharrell.com"
 }
