@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  font-family: 'Patua One', cursive;
+  font-weight: normal;
+  border-bottom: 10px solid black;
+  padding-bottom: 1em;
+}
+.title {
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  padding: 2em;
+  max-width: 650px;
+  margin: 100px auto;
+  background-color: white;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.links .link {
+  display: inline-block;
+}
+.links a {
+  height: 4.4rem;
+  width: 4.4rem;
+  position: relative;
+}
+.links svg,
+.links a {
+  display: block;
+}
+.links svg {
+  height: 100%;
+  width: 100%;
+}
+.icon:hover {
+  border-radius: 100%;
+  color: white;
+  fill: white;
+  background-color: black;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+@media (max-width: 700px) {
+  .app-container {
+    margin: 25px auto;
+    max-width: 700px;
+  }
+  .title {
+    font-size: 4em;
+  }
+}
