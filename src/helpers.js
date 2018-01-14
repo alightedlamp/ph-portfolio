@@ -5,5 +5,6 @@ export const INTROS = [
   'is eating a sandwich.',
   '29/male/atx',
   'where am i?',
-  'Hello, World!'
+  'Hello, World!',
+  'Full Stack Web Developer',
 ];

@@ -3,31 +3,29 @@
 }
 html,
 body {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 .header {
   font-family: 'Patua One', cursive;
   font-weight: normal;
-  border-bottom: 10px solid black;
   padding-bottom: 1em;
+  width: 550px;
 }
 .title {
-  font-size: 6em;
+  font-size: 3em;
+  padding-top: 8rem;
   margin: 0;
-  padding: 0;
 }
 .intro {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
   margin: 0;
-  padding: 0;
+  padding: 1em 0;
 }
 .app-container {
-  padding: 2em;
-  max-width: 650px;
-  margin: 100px auto;
   background-color: white;
 }
 .links {
@@ -57,6 +55,13 @@ body {
   fill: white;
   background-color: black;
   transition: background-color 0.5s, transform 0.5s ease-out;
+}
+.content {
+  max-width: 800px;
+  line-height: 1.75rem;
+}
+footer {
+  border-top: 10px solid black;
 }
 @media (max-width: 700px) {
   .app-container {
