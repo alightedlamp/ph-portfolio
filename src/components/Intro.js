@@ -20,7 +20,7 @@ class Intro extends Component {
     this.chooseIntroText();
   }
   render() {
-    return <p className="intro bt b--light-silver">{this.state.introText}</p>
+    return <p className="intro">{this.state.introText}</p>;
   }
 }
 

@@ -1,5 +1,5 @@
 // @format
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './assets/css/styles.css';
 
 import Header from './components/Header';
@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav />
         <div className="app-container">
           <Header />
           <MainContent />

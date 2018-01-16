@@ -5,9 +5,12 @@ class Contact extends Component {
     return (
       <div id="contact" className="bg-washed-blue black ph5-l pv5-l">
         <h2>Contact</h2>
-        <p>Here is how you can contact me.</p>
+        <p>
+          For general inquiries, please{' '}
+          <a href="mailto:philipharrell@gmail.com">send me a message!</a>
+        </p>
       </div>
-    )
+    );
   }
 }
 
