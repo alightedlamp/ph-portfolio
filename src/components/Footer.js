@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer className="ph5-l pt3-l pb5-l">
           <div className="links">
-            <div class="link">
+            <div className="link">
               <a
                 href="https://codepen.io/alightedlamp/"
                 class="icon codepen"

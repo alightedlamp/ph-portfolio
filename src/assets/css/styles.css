@@ -10,13 +10,13 @@ body {
 .header {
   font-family: 'Patua One', cursive;
   font-weight: normal;
-  padding-bottom: 1em;
-  width: 550px;
+  max-width: 800px;
 }
 .title {
   font-size: 3em;
-  padding-top: 8rem;
   margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 .intro {
   font-family: 'Open Sans', sans-serif;
@@ -37,8 +37,8 @@ body {
   display: inline-block;
 }
 .links a {
-  height: 4.4rem;
-  width: 4.4rem;
+  height: 3rem;
+  width: 3rem;
   position: relative;
 }
 .links svg,

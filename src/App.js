@@ -1,7 +1,8 @@
 // @format
 import React, {Component} from 'react';
 import './assets/css/styles.css';
-import Intro from './components/Intro';
+
+import Header from './components/Header';
 import Nav from './components/Nav';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
@@ -12,10 +13,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="app-container">
-          <header className="header ph5-l">
-            <h1 className="title">Philip Harrell</h1>
-            <Intro />
-          </header>
+          <Header />
           <MainContent />
           <Footer />
         </div>
