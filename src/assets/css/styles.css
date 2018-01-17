@@ -80,8 +80,19 @@ footer .links a {
   .header {
     margin: 25px auto;
     max-width: 700px;
+    padding: 4rem;
   }
   .title {
     font-size: 4em;
+    padding-top: 0;
+  }
+  .project.w-33 {
+    width: 100%;
+    display: block;
+  }
+  .links a,
+  footer .links a {
+    width: 2.75em;
+    height: 2.75em;
   }
 }
