@@ -8,7 +8,12 @@ class Contact extends Component {
           <h2 class="f5 ttu mb3">Contact</h2>
           <p className="mb2">
             For general inquiries, please{' '}
-            <a href="mailto:philipharrell@gmail.com">send me a message!</a>
+            <a
+              className="link dim navy underline"
+              href="mailto:philipharrell@gmail.com"
+            >
+              send me a message!
+            </a>
           </p>
         </div>
       </div>

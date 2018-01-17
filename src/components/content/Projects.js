@@ -22,11 +22,15 @@ class Projects extends Component {
         )}
         <p>{project.description}</p>
         <div>
-          <a href={project.github_url}>Source</a>
+          <a className="link dim navy underline" href={project.github_url}>
+            Source
+          </a>
         </div>
         {project.url && (
           <div>
-            <a href={project.url}>View</a>
+            <a className="link dim navy underline" href={project.url}>
+              View
+            </a>
           </div>
         )}
       </div>
