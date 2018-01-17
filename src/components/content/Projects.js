@@ -21,11 +21,14 @@ class Projects extends Component {
           </div>
         )}
         <p>{project.description}</p>
-        <p>
+        <div>
           <a href={project.github_url}>Source</a>
-          <br />
-          <a href={project.url}>View</a>
-        </p>
+        </div>
+        {project.url && (
+          <div>
+            <a href={project.url}>View</a>
+          </div>
+        )}
       </div>
     );
   }
@@ -40,7 +43,7 @@ class Projects extends Component {
       <div>
         <div id="projects" className="bg-yellow black ph5 pv5 center">
           <div className="content">
-            <h2 className="f5 ttu">Projects</h2>
+            <h2 className="f5 ttu mb3">Projects</h2>
             <div className="projects">
               {/* <h3>Not Art</h3> */}
               <div className="gallery flex flex-wrap mv3">
@@ -56,7 +59,7 @@ class Projects extends Component {
           className="bg-light-blue black ph5 pv5 center"
         >
           <div className="content">
-            <h2 className="f5 ttu">Creative</h2>
+            <h2 className="f5 ttu mb3">Creative</h2>
             <div className="projects">
               {/* <h3>Art</h3> */}
               <div className="gallery flex flex-wrap mv3">

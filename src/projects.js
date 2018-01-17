@@ -7,21 +7,21 @@ import rps_img from './assets/img/project_rps.png';
 export const projects = [
   {
     name: 'Stranger Hangman',
-    description: 'A stranger things themed hangman game',
+    description: 'A stranger things themed hangman game.',
     preview_img: hangman_img,
     github_url: 'https://github.com/alightedlamp/Hangman-Game',
     url: 'https://alightedlamp.github.io/Hangman-Game/'
   },
   {
     name: 'GifTastic',
-    description: 'A clone of the Giphy search page',
+    description: 'A clone of the Giphy search page.',
     preview_img: giftastic_img,
     github_url: 'https://github.com/alightedlamp/GifTastic',
     url: 'https://alightedlamp.github.io/GifTastic/'
   },
   {
     name: 'RPS Multiplayer',
-    description: 'A Rock/Paper/Scissors multiplayer game built with Firebase',
+    description: 'A Rock/Paper/Scissors multiplayer game built with Firebase.',
     preview_img: rps_img,
     github_url: 'https://github.com/alightedlamp/RPS-Multiplayer',
     url: 'https://alightedlamp.github.io/RPS-Multiplayer/'

@@ -7,7 +7,7 @@ import Contact from './content/Contact';
 class MainContent extends Component {
   render() {
     return (
-      <div> 
+      <div>
         <About />
         <Projects />
         <Contact />
