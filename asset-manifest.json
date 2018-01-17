@@ -1,6 +1,11 @@
 {
-  "main.css": "static/css/main.74a8e6cf.css",
-  "main.css.map": "static/css/main.74a8e6cf.css.map",
-  "main.js": "static/js/main.0a8b6882.js",
-  "main.js.map": "static/js/main.0a8b6882.js.map"
+  "main.css": "static/css/main.9e26f1fa.css",
+  "main.css.map": "static/css/main.9e26f1fa.css.map",
+  "main.js": "static/js/main.ce600c7d.js",
+  "main.js.map": "static/js/main.ce600c7d.js.map",
+  "static/media/project_cssart.png": "static/media/project_cssart.4c41f76b.png",
+  "static/media/project_giftastic.png": "static/media/project_giftastic.9d687846.png",
+  "static/media/project_hangman.png": "static/media/project_hangman.7486bcfe.png",
+  "static/media/project_jsart.png": "static/media/project_jsart.429265d7.png",
+  "static/media/project_rps.png": "static/media/project_rps.888745c2.png"
 }
