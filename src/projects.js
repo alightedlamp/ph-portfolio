@@ -36,7 +36,7 @@ export const projects = [
 export const art = [
   {
     name: 'JSART.ART',
-    description: 'A collection of JavaScript-based art experiments.',
+    description: 'A collection of JavaScript-based drawing applications.',
     preview_img: jsart_img,
     github_url: 'https://github.com/alightedlamp/JSART.ART',
     url: 'https://jsart.art'
