@@ -21,11 +21,6 @@ class Projects extends Component {
           </div>
         )}
         <p>{project.description}</p>
-        <div>
-          <a className="link dim navy underline" href={project.github_url}>
-            Source
-          </a>
-        </div>
         {project.url && (
           <div>
             <a className="link dim navy underline" href={project.url}>
@@ -33,6 +28,11 @@ class Projects extends Component {
             </a>
           </div>
         )}
+        <div>
+          <a className="link dim navy underline" href={project.github_url}>
+            Source
+          </a>
+        </div>
       </div>
     );
   }
