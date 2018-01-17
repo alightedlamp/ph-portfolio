@@ -20,7 +20,7 @@ export const projects = [
     url: 'https://alightedlamp.github.io/GifTastic/'
   },
   {
-    name: 'Rock-Paper-Scissors-Lizard-Spock',
+    name: 'RPS Multiplayer',
     description: 'A Rock/Paper/Scissors multiplayer game built with Firebase',
     preview_img: rps_img,
     github_url: 'https://github.com/alightedlamp/RPS-Multiplayer',

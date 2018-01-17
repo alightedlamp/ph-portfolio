@@ -5,12 +5,14 @@ import SocialLinks from './SocialLinks';
 class Header extends Component {
   render() {
     return (
-      <header className="header ph5-l pv5-l">
+      <header className="header">
         <h1 className="title">
           Philip<br />Harrell
         </h1>
         <Intro />
-        <SocialLinks />
+        <div className="bt-10 mt3">
+          <SocialLinks />
+        </div>
       </header>
     );
   }

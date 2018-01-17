@@ -10,8 +10,9 @@ body {
 .header {
   font-family: 'Patua One', cursive;
   font-weight: normal;
-  max-width: 800px;
-  margin-bottom: 100px;
+  max-width: 650px;
+  margin: 100px auto 200px auto;
+  padding: 2em;
 }
 .title {
   font-size: 6em;
@@ -20,10 +21,10 @@ body {
 }
 .intro {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 300;
   margin: 0;
-  padding: 1em 0;
+  /* padding: 1em 0; */
 }
 .app-container {
   background-color: white;
@@ -33,7 +34,6 @@ body {
   flex-wrap: wrap;
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 10px solid black;
 }
 .links .link {
   display: inline-block;
@@ -59,22 +59,26 @@ body {
   transition: background-color 0.5s, transform 0.5s ease-out;
 }
 .content {
-  max-width: 800px;
+  max-width: 960px;
   line-height: 1.75rem;
+  margin: 0 auto;
 }
 .content-l {
   max-width: 1080px;
 }
+.bt-10 {
+  border-top: 10px solid black;
+}
 footer .links {
   margin-top: 0;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 footer .links a {
   width: 4rem;
   height: 4rem;
 }
 @media (max-width: 700px) {
-  .app-container {
+  .header {
     margin: 25px auto;
     max-width: 700px;
   }
