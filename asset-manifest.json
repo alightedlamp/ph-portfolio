@@ -1,11 +1,12 @@
 {
   "main.css": "static/css/main.0ab09c9c.css",
   "main.css.map": "static/css/main.0ab09c9c.css.map",
-  "main.js": "static/js/main.a0cca862.js",
-  "main.js.map": "static/js/main.a0cca862.js.map",
+  "main.js": "static/js/main.b19bee1b.js",
+  "main.js.map": "static/js/main.b19bee1b.js.map",
   "static/media/project_cssart.png": "static/media/project_cssart.4c41f76b.png",
   "static/media/project_giftastic.png": "static/media/project_giftastic.9d687846.png",
   "static/media/project_hangman.png": "static/media/project_hangman.7486bcfe.png",
   "static/media/project_jsart.png": "static/media/project_jsart.429265d7.png",
-  "static/media/project_rps.png": "static/media/project_rps.888745c2.png"
+  "static/media/project_rps.png": "static/media/project_rps.888745c2.png",
+  "static/media/project_thestudio.png": "static/media/project_thestudio.f3fcf2a9.png"
 }
