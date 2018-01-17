@@ -7,14 +7,14 @@ import rps_img from './assets/img/project_rps.png';
 export const projects = [
   {
     name: 'Stranger Hangman',
-    description: 'A stranger things themed hangman game.',
+    description: 'A vanilla JS Stranger Things themed hangman game.',
     preview_img: hangman_img,
     github_url: 'https://github.com/alightedlamp/Hangman-Game',
     url: 'https://alightedlamp.github.io/Hangman-Game/'
   },
   {
     name: 'GifTastic',
-    description: 'A clone of the Giphy search page.',
+    description: "A clone of the Giphy search page using Giphy's API.",
     preview_img: giftastic_img,
     github_url: 'https://github.com/alightedlamp/GifTastic',
     url: 'https://alightedlamp.github.io/GifTastic/'
@@ -30,7 +30,6 @@ export const projects = [
     name: 'Monique',
     description:
       'Monique is a bot that responds to voice commands. She aspires to be like Alexa one day.',
-    preview_img: '',
     github_url: 'https://github.com/alightedlamp/Monique'
   }
 ];
