@@ -1,12 +1,15 @@
 {
-  "main.css": "static/css/main.0ab09c9c.css",
-  "main.css.map": "static/css/main.0ab09c9c.css.map",
-  "main.js": "static/js/main.b19bee1b.js",
-  "main.js.map": "static/js/main.b19bee1b.js.map",
-  "static/media/project_cssart.png": "static/media/project_cssart.4c41f76b.png",
-  "static/media/project_giftastic.png": "static/media/project_giftastic.9d687846.png",
-  "static/media/project_hangman.png": "static/media/project_hangman.7486bcfe.png",
-  "static/media/project_jsart.png": "static/media/project_jsart.429265d7.png",
-  "static/media/project_rps.png": "static/media/project_rps.888745c2.png",
-  "static/media/project_thestudio.png": "static/media/project_thestudio.f3fcf2a9.png"
+  "main.css": "static/css/main.d58a331b.css",
+  "main.css.map": "static/css/main.d58a331b.css.map",
+  "main.js": "static/js/main.810d878d.js",
+  "main.js.map": "static/js/main.810d878d.js.map",
+  "static/media/project_artattack.png": "static/media/project_artattack.ffdc5876.png",
+  "static/media/project_burgertown.png": "static/media/project_burgertown.51f546ce.png",
+  "static/media/project_cssart.png": "static/media/project_cssart.a2363afd.png",
+  "static/media/project_devdash.png": "static/media/project_devdash.2117d63e.png",
+  "static/media/project_giftastic.png": "static/media/project_giftastic.341525cd.png",
+  "static/media/project_hangman.png": "static/media/project_hangman.82edeb15.png",
+  "static/media/project_jsart.png": "static/media/project_jsart.c3e88611.png",
+  "static/media/project_rps.png": "static/media/project_rps.1acc8790.png",
+  "static/media/project_thestudio.png": "static/media/project_thestudio.b85f5c23.png"
 }
