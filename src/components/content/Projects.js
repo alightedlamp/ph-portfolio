@@ -51,7 +51,7 @@ class Projects extends Component {
       <div>
         <div id="projects" className="bg-yellow black ph5 pv5 center">
           <div className="content">
-            <h2 className="f5 ttu mb3">Projects</h2>
+            <h2 className="f5 ttu mb3 mh3">Projects</h2>
             <div className="projects">
               <div className="gallery flex flex-wrap mv3">
                 {this.state.projects.map(project =>
@@ -66,7 +66,7 @@ class Projects extends Component {
           className="bg-light-blue black ph5 pv5 center"
         >
           <div className="content">
-            <h2 className="f5 ttu mb3">Creative</h2>
+            <h2 className="f5 ttu mb3 mh3">Creative</h2>
             <div className="projects">
               <div className="gallery flex flex-wrap mv3">
                 {this.state.art.map(project => this.renderProject(project))}
