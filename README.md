@@ -4,7 +4,7 @@ is a painter, programmer, and producer living in Austin, TX. This is the source 
 
 [CodePen](https://codepen.io/alightedlamp/)
 
-[GitHib (hey, that's here!)](https://github.com/alightedlamp)
+[GitHub (hey, that's here!)](https://github.com/alightedlamp)
 
 [Instagram](https://instagram.com/philipharrell)
 
