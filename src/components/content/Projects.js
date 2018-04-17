@@ -14,25 +14,29 @@ class Projects extends Component {
   renderProject(project) {
     return (
       <div className="project w-33 pr3 mv3" key={project.name}>
-        <h3>{project.name}</h3>
+        <h3 className="ma3">{project.name}</h3>
         {project.preview_img && (
           <div className="image">
             <img src={project.preview_img} alt={project.name} />
           </div>
         )}
-        <p>{project.description}</p>
-        {project.url && (
-          <div>
-            <a className="link dim navy underline" href={project.url}>
+        <div className="ma3">
+          {project.url && (
+            <a
+              className="f6 link dim ph3 pv2 mb2 dib white bg-dark-gray mr1"
+              href={project.url}
+            >
               View
             </a>
-          </div>
-        )}
-        <div>
-          <a className="link dim navy underline" href={project.github_url}>
+          )}
+          <a
+            className="f6 link dim ph3 pv2 mb2 dib white bg-dark-gray"
+            href={project.github_url}
+          >
             Source
           </a>
         </div>
+        <p className="ma3">{project.description}</p>
       </div>
     );
   }
@@ -49,7 +53,6 @@ class Projects extends Component {
           <div className="content">
             <h2 className="f5 ttu mb3">Projects</h2>
             <div className="projects">
-              {/* <h3>Not Art</h3> */}
               <div className="gallery flex flex-wrap mv3">
                 {this.state.projects.map(project =>
                   this.renderProject(project)
@@ -65,7 +68,6 @@ class Projects extends Component {
           <div className="content">
             <h2 className="f5 ttu mb3">Creative</h2>
             <div className="projects">
-              {/* <h3>Art</h3> */}
               <div className="gallery flex flex-wrap mv3">
                 {this.state.art.map(project => this.renderProject(project))}
               </div>

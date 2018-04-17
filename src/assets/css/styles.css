@@ -29,6 +29,9 @@ body {
 .app-container {
   background-color: white;
 }
+.nav {
+  top: 0;
+}
 .links {
   display: flex;
   flex-wrap: wrap;
