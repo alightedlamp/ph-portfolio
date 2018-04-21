@@ -61,10 +61,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-        <div
-          id="projects-creative"
-          className="bg-light-blue black ph5 pv5 center"
-        >
+        <div id="creative" className="bg-light-blue black ph5 pv5 center">
           <div className="content">
             <h2 className="f5 ttu mb3 mh3">Creative</h2>
             <div className="projects">

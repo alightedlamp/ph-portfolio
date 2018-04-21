@@ -8,14 +8,14 @@ class Nav extends Component {
     ).offsetTop;
     window.scrollTo({
       behavior: 'smooth',
-      top: location - 50
+      top: location - 75
     });
   };
   render() {
     return (
       <header className="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l nav">
         <nav className="f6 fw6 ttu tracked">
-          {['About', 'Projects', 'Contact'].map(link => (
+          {['About', 'Projects', 'Creative', 'Contact'].map(link => (
             <a
               key={link}
               className="link white dim dib mr3"
