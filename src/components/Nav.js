@@ -15,30 +15,17 @@ class Nav extends Component {
     return (
       <header className="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l nav">
         <nav className="f6 fw6 ttu tracked">
-          <a
-            className="link white dim dib mr3"
-            data-location="about"
-            title="About"
-            onClick={e => this.scrollTo(e)}
-          >
-            About
-          </a>
-          <a
-            className="link white dim dib mr3"
-            data-location="projects"
-            title="Projects"
-            onClick={e => this.scrollTo(e)}
-          >
-            Projects
-          </a>
-          <a
-            className="link white dim dib"
-            data-location="contact"
-            title="Contact"
-            onClick={e => this.scrollTo(e)}
-          >
-            Contact
-          </a>
+          {['About', 'Projects', 'Contact'].map(link => (
+            <a
+              key={link}
+              className="link white dim dib mr3"
+              data-location={link.toLowerCase()}
+              title={link}
+              onClick={e => this.scrollTo(e)}
+            >
+              {link}
+            </a>
+          ))}
         </nav>
       </header>
     );
