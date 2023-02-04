@@ -46,7 +46,7 @@ export const projects = [
       'An application built with Node, Express, Handlebars, and MySQL which lets users enter burgers and restaurants at which they would like to eat.',
     preview_img: burgertown_img,
     github_url: 'https://github.com/alightedlamp/atx-burgers',
-    url: 'https://burger-town-atx.herokuapp.com/'
+    // url: 'https://burger-town-atx.herokuapp.com/'
   },
   {
     name: 'Dev Dash',
@@ -54,7 +54,7 @@ export const projects = [
       "An application built with Node, Express, Handlebars, Sequelize, Passport, and the Bulma CSS framework. Users add projects, milestones, and resources to better organize the items they're working on to become better developers.",
     preview_img: devdash_img,
     github_url: 'https://github.com/alightedlamp/devdash',
-    url: 'https://devprogdash.herokuapp.com'
+    // url: 'https://devprogdash.herokuapp.com'
   },
   {
     name: 'Monique',
@@ -65,13 +65,13 @@ export const projects = [
 ];
 
 export const art = [
-  {
-    name: 'JSART.ART',
-    description: 'A collection of JavaScript-based drawing applications.',
-    preview_img: jsart_img,
-    github_url: 'https://github.com/alightedlamp/JSART.ART',
-    url: 'https://jsart.art'
-  },
+  // {
+  //   name: 'JSART.ART',
+  //   description: 'A collection of JavaScript-based drawing applications.',
+  //   preview_img: jsart_img,
+  //   github_url: 'https://github.com/alightedlamp/JSART.ART',
+  //   url: 'https://jsart.art'
+  // },
   {
     name: 'CSSART.CLUB',
     description:

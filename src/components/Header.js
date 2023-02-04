@@ -9,7 +9,6 @@ class Header extends Component {
         <h1 className="title">
           Philip<br />Harrell
         </h1>
-        <Intro />
         <div className="bt-10 mt3">
           <SocialLinks />
         </div>
