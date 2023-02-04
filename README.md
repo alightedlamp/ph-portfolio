@@ -6,12 +6,6 @@ is a painter, programmer, and producer living in Austin, TX. This is the source 
 
 [GitHub (hey, that's here!)](https://github.com/alightedlamp)
 
-[Instagram](https://instagram.com/philipharrell)
-
 [LinkedIn](https://www.linkedin.com/in/philipharrell/)
 
-[SoundCloud](https://soundcloud.com/p_harrell)
-
-[Tumblr](https://philipandrewharrell.tumblr.com)
-
-[Twitter](https://twitter.com/n_othanks)
+[SoundCloud](https://soundcloud.com/not_hank_s)
