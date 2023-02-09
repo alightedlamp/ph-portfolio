@@ -5,7 +5,7 @@ import rps_img from './assets/img/project_rps.png';
 import burgertown_img from './assets/img/project_burgertown.png';
 import devdash_img from './assets/img/project_devdash.png';
 
-import jsart_img from './assets/img/project_jsart.png';
+// import jsart_img from './assets/img/project_jsart.png';
 import cssart_img from './assets/img/project_cssart.png';
 import thestudio_img from './assets/img/project_thestudio.png';
 

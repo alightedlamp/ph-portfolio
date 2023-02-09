@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Intro from './Intro';
 import SocialLinks from './SocialLinks';
 
 class Header extends Component {
